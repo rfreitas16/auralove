@@ -4,6 +4,15 @@
   position: relative;
 }
 
+.timeline-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+.timeline-title h2 {
+  text-align: center;
+}
+
 .timeline::before {
   content: '';
   position: absolute;
@@ -64,9 +73,27 @@
 .timeline-item.right .timeline-dot {
   left: -8px;
 }
-footer {
-  text-align: center;
-  height: 5vh;
+
+/* style dos botoes */
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.actions button {
+  background: transparent;
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.actions button:hover {
+  background: #38bdf8;
+  color: #0f172a;
 }
 
 /* 📱 Mobile */
@@ -109,4 +136,27 @@ footer {
 .actions button:hover {
   background: #38bdf8;
   color: #0f172a;
+}
+.timeline-image {
+  position: static;
+  width: 100%;
+  margin-top: 15px;
+  opacity: 0;
+  transform: scale(1);
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.timeline-item.active .timeline-image {
+  opacity: 1;
+  max-height: 400px;
+  border-radius: 12px;
+}
+
+.timeline-image img {
+  width: 100%;
+  border-radius: 12px;
+}
+.timeline-image:empty {
+  display: none;
 }

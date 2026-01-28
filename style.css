@@ -10,18 +10,21 @@ body {
   height: 100vh;
   margin: auto;
   font-family: 'Atma', system-ui;
+  font-size: 1.3em;
 }
 .description {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0.3em;
   margin: auto;
 }
 .main {
   background-color: rgb(236, 236, 236);
+  border-radius: 10px;
 }
-/* aqui comeca a timeline */
+/* aqui comeca o formulario para novos dias */
 
 .form-section {
   max-width: 600px;
@@ -64,7 +67,11 @@ button:hover {
   background: #1d4ed8;
 }
 
-
+/* footer  */
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
   margin: auto;
 }

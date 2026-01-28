@@ -31,3 +31,29 @@ app.post('/events', (req, res) => {
 app.listen(PORT, () => {
   console.log(`🔥 Servidor rodando em http://localhost:${PORT}`);
 });
+
+///rotas para curtir e favoritar
+app.post('/events/:index/like', (req, res) => {
+  const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8'));
+  const i = req.params.index;
+
+  if (!data[i]) return res.status(404).end();
+
+  data[i].likes += 1;
+  fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
+
+  res.json({ likes: data[i].likes });
+});
+
+// ⭐ Favoritar
+app.post('/events/:index/favorite', (req, res) => {
+  const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8'));
+  const i = req.params.index;
+
+  if (!data[i]) return res.status(404).end();
+
+  data[i].favorite = !data[i].favorite;
+  fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
+
+  res.json({ favorite: data[i].favorite });
+});
