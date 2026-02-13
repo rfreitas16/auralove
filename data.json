@@ -141,7 +141,8 @@
     "description": "Samantha escolheu Justin Timberlake - Mirrors como nossa musica 😍 You are, you are the love of my life",
     "likes": 0,
     "favorite": false,
-    "image": ""
+    "image": "",
+    "music": "src/music/Justin Timberlake - Mirrors.mp3"
   },
   {
     "title": "Mais um por do sol com voce",
@@ -174,5 +175,13 @@
     "likes": 0,
     "favorite": false,
     "image": ""
+  },
+  {
+    "title": "Minha mae quer te conhecer",
+    "date": "12 Fev 2026",
+    "description": "Samantha foi ver a mae dela e ela quer me conhecer, hoje tiramos o dia para nos declarar um ao outro foi tao bonito.",
+    "likes": 0,
+    "favorite": false,
+    "image": "src/img/euteamo2.jpg"
   }
 ]

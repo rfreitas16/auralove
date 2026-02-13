@@ -12,7 +12,7 @@ fetch('data.json')
     <h3>${event.title}</h3>
     <small>${event.date}</small>
     <p>${event.description}</p>
-    <span class="like"><i class="fa-regular fa-heart"></i></span>
+    
   </div>
 
   ${
@@ -20,6 +20,18 @@ fetch('data.json')
       ? `
     <div class="timeline-image">
       <img src="${event.image}" alt="${event.title}">
+    </div>
+  `
+      : ''
+  }
+  ${
+    event.music
+      ? `
+    <div class="timeline-music">
+      <audio controls preload="none">
+        <source src="${event.music}" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+      </audio>
     </div>
   `
       : ''
