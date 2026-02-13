@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="src/css/timeline.css" />
     <link rel="stylesheet" href="src/css/contador.css" />
     <link rel="stylesheet" href="src/css/carta.css" />
+    <link rel="stylesheet" href="src/css/wordsGame.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -75,6 +76,26 @@
           </div>
         </div>
       </div>
+      <!-- JOGO DE PALAVRAS -->
+
+      <div class="container">
+        <!-- Tela inicial -->
+        <div class="start-screen" id="startScreen">
+          <button onclick="startGame()">🧩 Quebra Porongo</button>
+        </div>
+
+        <!-- Jogo (inicia oculto) -->
+        <div class="game hidden" id="game">
+          <h1>❤️ Jogo de Palavras da carta fisica ❤️</h1>
+          <p>Aqui vai um jeitinho mais facil para voce resolver o presente fisico do quebra cabeca de coracoes, te amo muito minha princesa</p>
+          <div class="words" id="words"></div>
+          <div class="result" id="result"></div>
+
+          <button id="resetBtn" class="reset hidden" onclick="resetGame()">
+            Reiniciar
+          </button>
+        </div>
+      </div>
     </div>
 
     <button id="backToTop">❤</button>
@@ -85,6 +106,7 @@
     <script src="src/js/timeline.js"></script>
     <script src="src/js/baloes-de-coracoes.js"></script>
     <script src="src/js/contador.js"></script>
+    <script src="src/js/wordsGame.js"></script>
     <script src="src/js/carta.js"></script>
     <script src="src/js/backTop.js"></script>
   </body>

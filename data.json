@@ -138,7 +138,7 @@
   {
     "title": "Nossa musica",
     "date": "06 Fev 2026",
-    "description": "Samantha escolheu Justin Timberlake - Mirrors como nossa musica 😍 You are, you are the love of my life",
+    "description": "Samantha escolheu Justin Timberlake - Mirrors como nossa musica 😍 You are, you are the love of my life! se quiser ouvir clica ai embaixo linda",
     "likes": 0,
     "favorite": false,
     "image": "",
@@ -180,6 +180,14 @@
     "title": "Minha mae quer te conhecer",
     "date": "12 Fev 2026",
     "description": "Samantha foi ver a mae dela e ela quer me conhecer, hoje tiramos o dia para nos declarar um ao outro foi tao bonito.",
+    "likes": 0,
+    "favorite": false,
+    "image": "src/img/euteamo2.jpg"
+  },
+  {
+    "title": "",
+    "date": "13 Fev 2026",
+    "description": "Samantha",
     "likes": 0,
     "favorite": false,
     "image": "src/img/euteamo2.jpg"

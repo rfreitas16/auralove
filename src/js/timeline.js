@@ -40,6 +40,13 @@ fetch('data.json')
   <span class="timeline-dot"></span>
 `;
 
+      // faz comecar com 50% do volume
+      const audios = item.querySelectorAll('audio');
+
+      audios.forEach(audio => {
+        audio.volume = 0.5; // 50% de volume
+      });
+
       // clique para expandir
       item.querySelector('.timeline-content').addEventListener('click', () => {
         item.classList.toggle('active');
