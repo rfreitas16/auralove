@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="src/css/timeline.css" />
     <link rel="stylesheet" href="src/css/accountant.css" />
-    <link rel="stylesheet" href="src/css/letter.css" />
+    <link rel="stylesheet" href="src/css/carta.css" />
+    <!-- <link rel="stylesheet" href="src/css/letter.css" /> -->
     <link rel="stylesheet" href="src/css/wordsGame.css" />
     <link rel="stylesheet" href="src/css/letterFisic.css" />
 
@@ -38,22 +39,38 @@
       <!-- CARTA -->
       <div id="letter-container">
         <div class="letter">
+          <div class="flap"></div>
           <div class="heart" id="openLetter">❤</div>
-          <p class="hint">Clique no coração</p>
+          <p class="hint"></p>
         </div>
       </div>
 
-      <div id="hearts-container"></div>
+      <!-- ENVELOPE -->
+  <!-- <div id="envelope-container">
+    <div class="envelope" id="envelope">
 
+      <div class="flap"></div>
+
+      <div class="letter">
+        <h2>Para você 💕</h2>
+        <p>Existe algo especial esperando...</p>
+      </div>
+
+      <div class="heart" id="openBtn">❤</div>
+    </div>
+  </div> -->
+
+
+      <!-- BALOES DE CORACAO -->
+      <div id="hearts-container"></div>
+      <!-- TIMELINE -->
       <div class="timeline-title">
         <h2>Aqui vai nossa timeline 📆</h2>
       </div>
       <div class="timeline" id="timeline"></div>
-
       <!-- PLAYER MUSICA -->
-
       <div class="preview" id="preview"></div>
-
+      <!-- CONTADOR -->
       <div class="contador-section">
         <div class="contador-container">
           <div class="titulo">Desde 15 de janeiro de 2026 💞</div>
@@ -82,7 +99,6 @@
         </div>
       </div>
       <!-- JOGO DE PALAVRAS -->
-
       <div class="container">
         <!-- Tela inicial -->
         <div class="start-screen" id="startScreen">
@@ -115,7 +131,6 @@
     <button class="botao-romantico" onclick="abrirCarta1()">
       💌 Abrir Carta
     </button>
-
     <!-- Carta 1 -->
     <div class="overlay" id="overlay1">
       <div class="carta">
@@ -135,7 +150,6 @@
         </div>
       </div>
     </div>
-
     <!-- Carta 2 -->
     <div class="overlay" id="overlay2">
       <div class="carta carta-scroll">
@@ -188,6 +202,7 @@
     <script src="src/js/contador.js"></script>
     <script src="src/js/wordsGame.js"></script>
     <script src="src/js/carta.js"></script>
+    <!-- <script src="src/js/letter.js"></script> -->
     <script src="src/js/letterFisic.js"></script>
     <script src="src/js/backTop.js"></script>
   </body>

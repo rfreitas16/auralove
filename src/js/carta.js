@@ -8,6 +8,6 @@ openLetter.addEventListener('click', () => {
 
   setTimeout(() => {
     letterContainer.style.display = 'none';
-    siteContent.classList.add('show');
+    // siteContent.classList.add('show');
   }, 900);
 });
