@@ -2,23 +2,23 @@
   {
     "title": "💕 Samantha match 💕",
     "date": "15 Jan 2026",
-    "description": "Nosso primeiro encontro foi aqui no lugar menos esperado",
-    "likes": 10,
+    "description": "Nosso primeiro encontro foi aqui no lugar menos esperado.",
+    "likes": 0,
     "favorite": false,
-    "image": "src/img/rosa.jpg"
+    "image": "src/img/match.jpg"
   },
   {
     "title": "Primeira troca de ideias ⚠️",
     "date": "16 Jan 2026",
-    "description": "Samantha comecamos a nos falar primeira conversa no wpp",
+    "description": "Samantha comecamos a nos falar primeira conversa no whatsapp.",
     "likes": 0,
     "favorite": false,
-    "image": ""
+    "image": "src/img/whats.jpg"
   },
   {
-    "title": "Me entreguei ",
+    "title": "Me entreguei",
     "date": "17 Jan 2026",
-    "description": "Samantha me mandou mensagem e me pegou em live rindo pro celular",
+    "description": "Samantha me mandou mensagem e me pegou em live rindo pro celular.",
     "likes": 0,
     "favorite": false,
     "image": "src/img/me-entreguei.jpg"
@@ -26,7 +26,7 @@
   {
     "title": "Minecraft",
     "date": "18 Jan 2026",
-    "description": "Samantha jogamos Minicraft pela primeira vez",
+    "description": "Samantha jogamos Minicraft pela primeira vez.",
     "likes": 0,
     "favorite": false,
     "image": "src/img/mine.jpeg"
@@ -34,7 +34,7 @@
   {
     "title": "Um encontro de almas 💏",
     "date": "19 Jan 2026",
-    "description": "Samantha conheci o meu amor e a levei uma rosa, primeiro beijo, primeira transa, Samantha fez panquecas sem ovo para mim 😗",
+    "description": "Samantha conheci o meu amor e a levei uma rosa, nosso primeiro beijo, Samantha fez panquecas sem ovo para mim 😗",
     "likes": 0,
     "favorite": false,
     "image": "src/img/almas.jpg"
@@ -42,15 +42,15 @@
   {
     "title": "Maestro 😂",
     "date": "20 Jan 2026",
-    "description": "Samantha tiramos nossas primeiras fotos, peguei em sua mao e andei de maos dadas recebi carinho na mao 🥹. Comprei picolé de limao para ela. Samantha ama todas as flores. Samantha mexe os dedos igual maetro quando esta braba, rimos litros quando eu disse isso 😂",
+    "description": "Samantha tiramos nossas primeiras fotos, peguei em sua mão e andei de mãos dadas recebi carinho na mão 🥹. Comprei picolé de limão para ela. Samantha ama todas as flores. Samantha mexe os dedos igual maestro quando esta braba, rimos litros quando eu disse isso. 😂",
     "likes": 0,
     "favorite": false,
-    "image": ""
+    "image": "src/img/love.jpg"
   },
   {
     "title": "Melancia 🍉",
     "date": "21 Jan 2026",
-    "description": "Samantha disse eu te amo apos comer meia melancia",
+    "description": "Samantha disse eu te amo apos comer meia melancia.",
     "likes": 0,
     "favorite": false,
     "image": "src/img/melancia.jpg"
@@ -58,23 +58,31 @@
   {
     "title": "Eu te amo ❤️",
     "date": "22 Jan 2026",
-    "description": "Samantha disse eu te amo de novo, acho que nao era por causa da melancia. Me deu um sub na live tambem",
+    "description": "Samantha disse eu te amo de novo, acho que não era por causa da melancia. Me deu um sub na live tambem.",
+    "likes": 0,
+    "favorite": false,
+    "image": "src/img/euteamo.jpg"
+  },
+  {
+    "title": "Seguro pelo mindinho",
+    "date": "23 Jan 2026",
+    "description": "Samantha voce me disse que amou o jeitinho de te segurar a mão pelo mindinho, pois você foi feita para mim. 😍",
     "likes": 0,
     "favorite": false,
     "image": ""
   },
   {
-    "title": "Ate o carroco 🍔",
+    "title": "Galeto",
     "date": "24 Jan 2026",
-    "description": "Samantha veio para ca, fiz galeto errado nao era de coxinha, chupei sua xota pela primeira vez e transamos no pelo. Teve crise de asma tadinha",
+    "description": "Samantha veio para ca, fiz galeto errado não era de coxinha. Teve crise de asma tadinha.",
     "likes": 0,
     "favorite": false,
-    "image": ""
+    "image": "src/img/galeto.jpg"
   },
   {
     "title": "Guerra mundial Z",
     "date": "25 Jan 2026",
-    "description": "Samantha fez massa caseira para mim. Caminhamos na praia e vimos o fim de tarde da lagoa. Samantha teve a ideia de por nossas fotos de plano de fundo do celular. Samantha cadastrou minha digital no celular dela e me falou as senhas dela tudo, depois de assistir uma cena em guerra mundial Z, nao entendi nada mas tudo bem. Guerra mundial Z é seu filme favorito",
+    "description": "Samantha fez massa caseira para mim. Caminhamos na praia e vimos o fim de tarde da lagoa. Samantha teve a ideia de por nossas fotos de plano de fundo do celular. Samantha cadastrou minha digital no celular dela e me falou as senhas dela tudo, depois de assistir uma cena em guerra mundial Z, nao entendi nada mas tudo bem. Guerra mundial Z é seu filme favorito.",
     "likes": 0,
     "favorite": false,
     "image": "src/img/wallpaper.webp"
@@ -82,7 +90,7 @@
   {
     "title": "Ela faz de tudo",
     "date": "26 Jan 2026",
-    "description": "Samantha conseguiu convencer a chefe de tocar direto, para ficar a manha comigo... Que mulher, meu deus! Fiquei dodoi da barriga",
+    "description": "Samantha conseguiu convencer a chefe de tocar direto, para ficar a manhã comigo... Que mulher, meu Deus! Fiquei dodói da barriga.",
     "likes": 0,
     "favorite": false,
     "image": "src/img/dodoi.jpeg"
@@ -90,31 +98,31 @@
   {
     "title": "Primeira dr",
     "date": "27 Jan 2026",
-    "description": "Samantha tivemos nossa primeira dr, tenho que melhorar coisas que eu nem noto que faco, fiquei triste nao queria discutir",
+    "description": "Samantha tivemos nossa primeira discução de relacionamento, tenho que melhorar coisas que eu nem noto que faço, fiquei triste não queria discutir. Não se preocupe a gente cresce junto meu amor.",
     "likes": 0,
     "favorite": false,
-    "image": ""
+    "image": "src/img/girassol.jpg"
   },
   {
     "title": "Hoseok e passarinhos",
     "date": "28 Jan 2026",
-    "description": "Samantha teve que limpar uma chacina no banheiro por causa da Hoseok, foram 2 passaros pra barriga",
+    "description": "Samantha teve que limpar uma chacina no banheiro por causa da Hoseok, foram 2 pássaros pra barriga.",
     "likes": 0,
     "favorite": false,
-    "image": ""
+    "image": "src/img/hoseok.jpg"
   },
   {
-    "title": "Estamos namorando ou ficando",
+    "title": "Estamos namorando ou ficando?",
     "date": "29 Jan 2026",
-    "description": "Samantha Perguntou se estavamos ficando ou namorando, pois para ela ja estavamos namorando 💕",
+    "description": "Samantha Perguntou se estavamos ficando ou namorando, pois para ela ja estavamos namorando. 💕",
     "likes": 0,
     "favorite": false,
     "image": ""
   },
   {
-    "title": "Conficoes",
+    "title": "Confições",
     "date": "30 Jan 2026",
-    "description": "Samantha depois de um dia muito dificil confessou que foi jogar fora o lacre do leite e quase colocou no cesto de roupas sendo assim, guardou uma semana na bolsa por vergonha 😂",
+    "description": "Samantha depois de um dia muito dificil confessou que foi jogar fora o lacre do leite e quase colocou no cesto de roupas sendo assim, guardou uma semana na bolsa por vergonha. 😂",
     "likes": 0,
     "favorite": false,
     "image": "src/img/leite.jpg"
@@ -122,48 +130,89 @@
   {
     "title": "Anota",
     "date": "31 Jan 2026",
-    "description": "Samantha se declarou que se sente segura psico e fisicamente, e que sempre sonhou isso em seus doramas e finalizou dizendo: anota, 31/01 o dia em que previ que daqui uns anos vamos nos casar",
+    "description": "Samantha declarou que se sente segura psico e fisicamente, que sempre sonhou isso em seus doramas e finalizou dizendo: <i>Anota</i>, 31/01 o dia em que previ que daqui uns anos vamos nos <u>casar</u>.",
     "likes": 0,
     "favorite": false,
-    "image": "src/img/leite.jpg"
+    "image": "src/img/anota.jpg"
   },
   {
-    "title": "Xota",
+    "title": "A voce os girassois",
+    "date": "1 Fev 2026",
+    "description": "Samantha e eu achamos os girassois para poder achar a fortaleza do Nether, amo ver voce feliz.",
+    "likes": 0,
+    "favorite": false,
+    "image": "src/img/minessois.jpg"
+  },
+  {
+    "title": "Lasanha 🤌",
     "date": "02 Fev 2026",
-    "description": "Samantha mandou primeiro video da xota eu amei",
+    "description": "Samantha fiz lasanha para voce ontem esperando um pedido de namoro, mas não veio.",
     "likes": 0,
     "favorite": false,
     "image": ""
+  },
+  {
+    "title": "Saladinha",
+    "date": "03 Fev 2026",
+    "description": "Samantha comendo muita salada, para emagrecer, a cara esta boa.",
+    "likes": 0,
+    "favorite": false,
+    "image": "src/img/salada.jpg"
+  },
+  {
+    "title": "Fomos feitos um para o outro 🥰",
+    "date": "04 Fev 2026",
+    "description": "Samantha eu te escolhi de novo e de novo, eu te <u>admiro</u>, tudo que você é, do jeito que é. Eu te amo. ❤️",
+    "likes": 0,
+    "favorite": false,
+    "image": "src/img/umparaooutro.jpg"
+  },
+  {
+    "title": "Me mandei para ficar ouvindo e Tacos",
+    "date": "05 Fev 2026",
+    "description": "Samantha amou o audio então vou te ajudar... clica ai embaixo e escuta de novo minha linda! <b>minha</b> princesa 👸 ",
+    "likes": 0,
+    "favorite": false,
+    "image": "src/img/tacos.jpg",
+    "music": "src/music/vou salvar.mp3"
   },
   {
     "title": "Nossa musica",
     "date": "06 Fev 2026",
-    "description": "Samantha escolheu Justin Timberlake - Mirrors como nossa musica 😍 You are, you are the love of my life! se quiser ouvir clica ai embaixo linda",
+    "description": "Samantha escolheu Justin Timberlake - Mirrors como nossa musica 😍 <i>You are, you are the love of my life!</i> Se quiser pode clicar abaixo pra escutar amor! ♥",
     "likes": 0,
     "favorite": false,
-    "image": "",
+    "image": "src/img/musica.jpg",
     "music": "src/music/Justin Timberlake - Mirrors.mp3"
   },
   {
-    "title": "Mais um por do sol com voce",
-    "date": "08 Fev 2026",
-    "description": "Samantha comeu meu churrasquinho, andou de dindin, fomos na loja ver se tinha capinha de celular e rimos, depois fomos ver o fim de tarde na lagoa",
+    "title": "Em busca do tesouro",
+    "date": "07 Fev 2026",
+    "description": "Samantha e eu encontremos nosso primeiro mapa do tesouro no Minecraft. 😍",
     "likes": 0,
     "favorite": false,
-    "image": ""
+    "image": "src/img/mapa.jpg"
+  },
+  {
+    "title": "Mais um por-do-sol com você",
+    "date": "08 Fev 2026",
+    "description": "Samantha comeu meu churrasquinho, andou de dindin, fomos na loja ver se tinha capinha de celular e rimos, depois fomos ver o fim de tarde na lagoa.",
+    "likes": 0,
+    "favorite": false,
+    "image": "src/img/fimdetarde.jpg"
   },
   {
     "title": "Crise de enxaqueca",
     "date": "09 Fev 2026",
-    "description": "Samantha e eu nao nos entendemos e por cauda do dia anterior e ela veio no intervalo, chorou muito e teve crise de enxaqueca fomos na upa e eu bati com a cadeira de rodas na porta, fiz doutora ir levar o atestado pessoalmente para ela",
+    "description": "Samantha e eu não nos entendemos e por causa do dia anterior e ela veio no intervalo, chorou muito e teve crise de enxaqueca fomos na upa e eu bati com a cadeira de rodas na porta, fiz doutora ir levar o atestado pessoalmente para ela.",
     "likes": 0,
     "favorite": false,
     "image": ""
   },
   {
-    "title": "Clientela Feliz essa dai",
+    "title": "Clientela Feliz essa dai...",
     "date": "10 Fev 2026",
-    "description": "Samantha ainda sobre ontem formos la loja de informatica de novo e tivemos risos, viramos os cliente casal feliz, e Samantha me ensinou a fazer sexo anal",
+    "description": "Samantha ainda sobre ontem formos la loja de informatica de novo e tivemos mais risos, viramos os clientes casal feliz",
     "likes": 0,
     "favorite": false,
     "image": ""
@@ -171,25 +220,41 @@
   {
     "title": "Dia triste",
     "date": "11 Fev 2026",
-    "description": "Samantha eu tive um dia ruim, acabamos ficando meio distantes o dia todo, Samantha vendeu sua mesa da cozinha, ainda deram advertencia na farmacia pro meu amor que ódio",
+    "description": "Samantha eu tive um dia ruim, acabamos ficando meio distantes o dia todo, Samantha vendeu sua mesa da cozinha, ainda deram advertencia na farmacia pro meu amor por causa de celular, que ódio",
     "likes": 0,
     "favorite": false,
     "image": ""
   },
   {
-    "title": "Minha mae quer te conhecer",
+    "title": "Minha mãe quer te conhecer",
     "date": "12 Fev 2026",
-    "description": "Samantha foi ver a mae dela e ela quer me conhecer, hoje tiramos o dia para nos declarar um ao outro foi tao bonito.",
+    "description": "Samantha foi ver a mãe dela e ela quer me conhecer, hoje tiramos o dia para nos declarar um ao outro foi tão bonito.",
     "likes": 0,
     "favorite": false,
     "image": "src/img/euteamo2.jpg"
   },
   {
-    "title": "",
+    "title": "Troféu cabeça de Dragão",
     "date": "13 Fev 2026",
-    "description": "Samantha",
+    "description": "Samantha fomos ao End do minecraft e matamos o dragão zeramos o jogo! Te amo muito minha vida! ❤️",
     "likes": 0,
     "favorite": false,
-    "image": "src/img/euteamo2.jpg"
+    "image": "src/img/dragao-mine.jpg"
+  },
+  {
+    "title": "Valentines day",
+    "date": "14 Fev 2026",
+    "description": "Samantha hoje nosso primeiro dia dos namorados, amanha nosso dia estaremos comemorando em dobro, te amo",
+    "likes": 0,
+    "favorite": false,
+    "image": ""
+  },
+  {
+    "title": "Hoje completa um mes",
+    "date": "15 Fev 2026",
+    "description": "Samantha hoje completa um mes que a gente se falou pela primeira vez, eu depois de tudo isso eu so queria dizer que eu te amo demais. E te quero pro resto da minha vida! ❤️",
+    "likes": 0,
+    "favorite": false,
+    "image": ""
   }
 ]

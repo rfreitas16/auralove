@@ -19,6 +19,13 @@ body {
   align-items: center;
   padding: 0.3em;
   margin: auto;
+  margin-top: 40px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 10px;
+  border-bottom: 2px dotted #4373f8;
+}
+.description p {
+  padding: 20px;
 }
 .main {
   background-color: rgb(236, 236, 236);
@@ -74,4 +81,8 @@ footer {
   align-items: center;
   height: 5vh;
   margin: auto;
+  margin-top: 20px;
+  background-color: #1d4ed8;
+  border-radius: 10px;
+  cursor: default;
 }

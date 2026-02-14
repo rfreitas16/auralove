@@ -1,0 +1,119 @@
+/* Bloqueia rolagem da página */
+body.no-scroll {
+  overflow: hidden;
+}
+/* Bloqueia rolagem da página */
+body.no-scroll {
+  overflow: hidden;
+}
+/* Botão principal */
+.botao-romantico {
+  background: white;
+  color: #d6336c;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+.botao-romantico:hover {
+  transform: scale(1.05);
+}
+
+/* Overlay */
+.overlay {
+  position: fixed;
+  inset: 0;
+  backdrop-filter: blur(6px);
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s ease;
+  z-index: 999;
+}
+
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Carta padrão */
+.carta {
+  background: #fff;
+  width: 90%;
+  max-width: 500px;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  transform: translateY(40px);
+  transition: 0.5s ease;
+}
+
+.overlay.active .carta {
+  transform: translateY(0);
+}
+
+/* Carta 2 com rolagem */
+.carta-scroll {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+/* Scroll romântico */
+.carta-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.carta-scroll::-webkit-scrollbar-thumb {
+  background: #ff85a2;
+  border-radius: 10px;
+}
+
+.coracao {
+  font-size: 40px;
+  animation: pulsar 1.5s infinite;
+}
+
+@keyframes pulsar {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.botoes {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.botao-secundario {
+  background: #ff85a2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.fechar {
+  background: #d6336c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}

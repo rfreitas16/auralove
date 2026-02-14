@@ -136,6 +136,53 @@ button:hover {
   background-color: #e74c3c !important;
 }
 
+/* coutdown botao */
+
+/* Botão bloqueado */
+button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+/* Efeito de fundo ao desbloquear */
+.unlock-effect {
+  animation: flashBackground 1s ease alternate 4;
+}
+
+@keyframes flashBackground {
+  from {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+  }
+  to {
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+  }
+}
+
+/* Confete */
+.confetti {
+  position: fixed;
+  top: -10px;
+  width: 8px;
+  height: 14px;
+  background: red;
+  opacity: 0.8;
+  animation: fall 3s linear forwards;
+}
+
+.confetti:nth-child(odd) {
+  background: yellow;
+}
+
+.confetti:nth-child(even) {
+  background: #2ecc71;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh) rotate(720deg);
+  }
+}
+
 /* Responsivo */
 @media (max-width: 768px) {
   .game {

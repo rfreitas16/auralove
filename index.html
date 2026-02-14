@@ -3,28 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <link
+      rel="shortcut icon"
+      href="src/ico/love_letter.ico"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="src/css/timeline.css" />
-    <link rel="stylesheet" href="src/css/contador.css" />
-    <link rel="stylesheet" href="src/css/carta.css" />
+    <link rel="stylesheet" href="src/css/accountant.css" />
+    <link rel="stylesheet" href="src/css/letter.css" />
     <link rel="stylesheet" href="src/css/wordsGame.css" />
+    <link rel="stylesheet" href="src/css/letterFisic.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     />
-
     <title>❤️ AURALOV3 ❤️</title>
   </head>
 
   <body>
     <header>
       <div class="description">
-        <h1>Voce se lembra como tudo aconteceu?</h1>
+        <h1>Você se lembra como tudo aconteceu?</h1>
         <p>
           Pois eu me lembro de cada detalhe, cada coisinha que me fez gostar de
-          voce! E aqui eu vou te mostrar o quao lindo somos. Se quiser pode
-          clicar na nossa timeline a qualquer hora ♥
+          você! E aqui eu vou te mostrar o quão lindo somos! Se quiser pode
+          clicar na nossa timeline a qualquer hora meu amor ♥
         </p>
       </div>
     </header>
@@ -81,13 +86,21 @@
       <div class="container">
         <!-- Tela inicial -->
         <div class="start-screen" id="startScreen">
-          <button onclick="startGame()">🧩 Quebra Porongo</button>
+          <button id="startBtn" disabled>🧩 Quebra Porongo</button>
+          <p id="countdown"></p>
         </div>
 
         <!-- Jogo (inicia oculto) -->
         <div class="game hidden" id="game">
           <h1>❤️ Jogo de Palavras da carta fisica ❤️</h1>
-          <p>Aqui vai um jeitinho mais facil para voce resolver o presente fisico do quebra cabeca de coracoes, te amo muito minha princesa</p>
+          <p>
+            Aqui vai um jeitinho mais facil para você resolver o presente fisico
+            do quebra cabeca de corações, ainda sim vai ter que descobrir, mas é
+            mais facil prometo! Depois se você quiser pegar os corações e colar
+            numa folha para guardar a carta deve ficar bem legal tambem! Mas é
+            só uma sugestão minha linda... Te amo muito minha princesa e amo
+            arrancar esse seu sorriso que me derrete.❤️
+          </p>
           <div class="words" id="words"></div>
           <div class="result" id="result"></div>
 
@@ -98,16 +111,84 @@
       </div>
     </div>
 
+    <!-- CARTA FISICA VERSAO DIGITAL  -->
+    <button class="botao-romantico" onclick="abrirCarta1()">
+      💌 Abrir Carta
+    </button>
+
+    <!-- Carta 1 -->
+    <div class="overlay" id="overlay1">
+      <div class="carta">
+        <div class="coracao">❤️</div>
+        <h2>Primeira Carta</h2>
+        <p>
+          Entre todas as páginas do mundo, a minha favorita é aquela que
+          escrevemos juntos todos os dias. Esta é apenas uma pequena mensagem
+          para lembrar o quanto você é especial.
+        </p>
+
+        <div class="botoes">
+          <button class="fechar" onclick="fecharCarta1()">Fechar</button>
+          <button class="botao-secundario" onclick="irParaCarta2()">
+            Ler Carta Escrita 💖
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carta 2 -->
+    <div class="overlay" id="overlay2">
+      <div class="carta carta-scroll">
+        <div class="coracao">💘</div>
+        <h2>Segunda Carta</h2>
+        <h4>
+          Se cada batida do meu coração fosse uma palavra, você teria um livro
+          inteiro contando o quanto amo voce!
+        </h4>
+        <p>
+          Oioi Amor!<br />
+          Resolvi escrever uma cartinha para voce! Uma lembrancinha do nosso
+          primeiro mes para voce guardar e ao mesmo tempo para eu tentar te
+          dizer tudo que eu sinto por voce! Acredito queas pequenas coisas sao
+          as que mais marcam a gente, os detalhes que fazem a diferenca, que nos
+          fazem lembrar.<br />
+          Primeiro de tudo eu queria te dizer que eu sou o homem mais feliz dsse
+          mundo em ter voce ao meu lado,voce nao faz ideia do quao bem voce me
+          faz e do quanto eu me sinto completo com voce minha princesa linda! E
+          como eu agradeco a Deus por ter te posto em minha vida e
+          principalmente ter me dado aquela coragem a um mes atras! <br />
+          Desde entao passate a ter um significado enorme em minha vida
+          principalmente em meus dias ! Cada dia que passa eu amo mais voce, seu
+          jeito, sua dedicacao, sua paciencia, sua resiliencia. Amo cada
+          coisinha em ti, amo absolutamente tudo em voce Samantha e eu vou fazer
+          de tudo para te dar todo amor que voce merece, todo cuidado que voce
+          nunca teve, vou cuidar de voce e fazer de tudo para sempre te ver bem!
+          <b>Amo</b> voce demais alem das palavras, mas o que eu quero realmente
+          dizer é que eu nao vivo mais sem voce! Feliz 1 mesinho minha princesa
+          !<b>Te amo demais e cada vez mais</b> Obrigado por tudo foi um mes de
+          muita alegria e amor te amo demais ♥, <i>agora</i>e para todo
+          <b>sempre</b>... Rafa ❤️<br />
+          " <u>Be happy a Valentines day</u> ❤️"
+        </p>
+
+        <div class="botoes">
+          <button class="fechar" onclick="fecharCarta2()">Fechar</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOTAO DE VOLTAR AO TOPO -->
     <button id="backToTop">❤</button>
 
     <footer>
       <p>Feito com ❤️ por Rafael F.</p>
     </footer>
     <script src="src/js/timeline.js"></script>
-    <script src="src/js/baloes-de-coracoes.js"></script>
+    <script src="src/js/hearthBalons.js"></script>
     <script src="src/js/contador.js"></script>
     <script src="src/js/wordsGame.js"></script>
     <script src="src/js/carta.js"></script>
+    <script src="src/js/letterFisic.js"></script>
     <script src="src/js/backTop.js"></script>
   </body>
 </html>

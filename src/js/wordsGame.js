@@ -98,3 +98,61 @@ function resetGame() {
   localStorage.removeItem(STORAGE_KEY); // 🔥 limpa progresso
   loadGame();
 }
+
+// COUTDOWN PARA LIBERAR O BOTAO
+
+const RELEASE_DATE = new Date('2026-02-17T00:00:00').getTime();
+
+const startBtn = document.getElementById('startBtn');
+const countdownEl = document.getElementById('countdown');
+
+let unlocked = false;
+
+function checkReleaseDate() {
+  const now = new Date().getTime();
+  const difference = RELEASE_DATE - now;
+
+  if (difference <= 0 && !unlocked) {
+    unlockGame();
+    return;
+  }
+
+  if (difference > 0) {
+    const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
+    const minutes = Math.floor((difference / (1000 * 60)) % 60);
+    const seconds = Math.floor((difference / 1000) % 60);
+
+    countdownEl.textContent = `Libera em: ${days}d ${hours}h ${minutes}m ${seconds}s`;
+  }
+}
+
+function unlockGame() {
+  unlocked = true;
+
+  startBtn.disabled = false;
+  startBtn.onclick = startGame;
+  countdownEl.textContent = '🎉 Jogo Liberado!';
+
+  // 🔥 Animação especial
+  document.body.classList.add('unlock-effect');
+
+  // Confete simples
+  createConfetti();
+}
+
+function createConfetti() {
+  for (let i = 0; i < 80; i++) {
+    const confetti = document.createElement('div');
+    confetti.classList.add('confetti');
+    confetti.style.left = Math.random() * 100 + 'vw';
+    confetti.style.animationDelay = Math.random() * 2 + 's';
+    document.body.appendChild(confetti);
+
+    setTimeout(() => confetti.remove(), 4000);
+  }
+}
+
+setInterval(checkReleaseDate, 1000);
+checkReleaseDate();
+// unlockGame();
