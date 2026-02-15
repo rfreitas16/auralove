@@ -91,5 +91,6 @@ footer {
     display: flex;
     flex-direction: column;
     font-size: clamp(16px, 2vw, 20px);
+    height: 8vh;
   }
 }
