@@ -1,0 +1,12 @@
+git init
+git branch -m main
+git config user.name "seu nome" rafael
+git config user.email "email"
+git remote add origin ENDERECO DO REPO
+git commit
+git push origin main -u
+
+
+projeto ja existente
+
+git clone LINK "novo nome se quiser"

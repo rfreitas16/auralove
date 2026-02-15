@@ -1,0 +1,27 @@
+SEED: 841288281499429472
+casa
+-416 63 1
+
+coral
+-20766 79 -1874
+
+mina deserto 
+-20311 69 -2423
+
+nether
+73 64 203
+-1143 80 -30375
+
+stronghold finder
+-4187  -49   -39274
+
+stronghold finder 2 -quantidade boa de olhinhos
+-59436 60 -59436
+stronghold 3
+-52860 40 -59132
+
+PORTAL
+-59445 17 -53012
+
+grama - oxalat
+820 -30 -19336
