@@ -86,3 +86,10 @@ footer {
   border-radius: 10px;
   cursor: default;
 }
+@media (max-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    font-size: clamp(16px, 2vw, 20px);
+  }
+}

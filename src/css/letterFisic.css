@@ -6,6 +6,12 @@ body.no-scroll {
 body.no-scroll {
   overflow: hidden;
 }
+/* CONTAINER DOS BOTOES  */
+.fisic-letter {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
 /* Botão principal */
 .botao-romantico {
   background: white;
@@ -17,10 +23,12 @@ body.no-scroll {
   cursor: pointer;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
   transition: 0.3s;
+  margin-top: 1.3rem;
 }
 
 .botao-romantico:hover {
   transform: scale(1.05);
+  color: #fff;
 }
 
 /* Overlay */
@@ -116,4 +124,11 @@ body.no-scroll {
   padding: 10px 20px;
   border-radius: 30px;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .fisic-letter{
+    flex-direction: column;
+    gap: 2px;
+  }
 }
