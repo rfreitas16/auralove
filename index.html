@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="src/css/timeline.css" />
     <link rel="stylesheet" href="src/css/accountant.css" />
-    <link rel="stylesheet" href="src/css/carta.css" />
-    <!-- <link rel="stylesheet" href="src/css/letter.css" /> -->
+    <link rel="stylesheet" href="src/css/letter.css" />
     <link rel="stylesheet" href="src/css/wordsGame.css" />
     <link rel="stylesheet" href="src/css/letterFisic.css" />
 
@@ -38,7 +37,8 @@
     <div class="main">
       <!-- CARTA -->
       <div id="letter-container">
-        <div class="letter">
+        <div class="letter" id="envelope">
+          <div class="letter-empty" id="letter-empty"></div>
           <div class="flap"></div>
           <div class="heart" id="openLetter">❤</div>
           <p class="hint"></p>
@@ -46,7 +46,7 @@
       </div>
 
       <!-- ENVELOPE -->
-  <!-- <div id="envelope-container">
+      <!-- <div id="envelope-container">
     <div class="envelope" id="envelope">
 
       <div class="flap"></div>
@@ -59,7 +59,6 @@
       <div class="heart" id="openBtn">❤</div>
     </div>
   </div> -->
-
 
       <!-- BALOES DE CORACAO -->
       <div id="hearts-container"></div>
@@ -201,8 +200,7 @@
     <script src="src/js/hearthBalons.js"></script>
     <script src="src/js/contador.js"></script>
     <script src="src/js/wordsGame.js"></script>
-    <script src="src/js/carta.js"></script>
-    <!-- <script src="src/js/letter.js"></script> -->
+    <script src="src/js/letter.js"></script>
     <script src="src/js/letterFisic.js"></script>
     <script src="src/js/backTop.js"></script>
   </body>

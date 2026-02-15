@@ -1,17 +1,18 @@
-const envelope = document.getElementById('envelope');
-const openBtn = document.getElementById('openBtn');
-const siteContent = document.getElementById('site-content');
-const container = document.getElementById('envelope-container');
+const openLetter = document.getElementById('openLetter');
+const flap = document.getElementById('envelope');
+const letterContainer = document.getElementById('letter-container');
+const letterEmpty = document.getElementById('letter-empty');
 
-openBtn.addEventListener('click', () => {
-  envelope.classList.add('open');
-
-  setTimeout(() => {
-    container.style.opacity = '0';
-    siteContent.classList.add('show');
-  }, 1200);
+openLetter.addEventListener('click', () => {
+  flap.classList.add('open');
+  letterEmpty.classList.add('open');
 
   setTimeout(() => {
-    container.style.display = 'none';
+    letterContainer.style.display = 'none';
   }, 2000);
+
+  setTimeout(() => {
+    letterContainer.style.opacity = '0';
+    letterContainer.style.transform = 'scale(1.2)';
+  }, 1200);
 });
