@@ -34,7 +34,7 @@
   {
     "title": "Um encontro de almas 💏",
     "date": "19 Jan 2026",
-    "description": "Samantha conheci o meu amor e a levei uma rosa, primeiro beijo, primeira transa, Samantha fez panquecas sem ovo para mim 😗",
+    "description": "Samantha conheci o meu amor e a levei uma rosa, primeiro beijo. Samantha fez panquecas sem ovo para mim 😗",
     "likes": 0,
     "favorite": false,
     "image": "src/img/almas.jpg"
@@ -50,7 +50,7 @@
   {
     "title": "Melancia 🍉",
     "date": "21 Jan 2026",
-    "description": "Samantha disse eu te amo apos comer meia melancia.",
+    "description": "Samantha disse eu te amo após comer meia melancia.",
     "likes": 0,
     "favorite": false,
     "image": "src/img/melancia.jpg"
@@ -66,15 +66,15 @@
   {
     "title": "Seguro pelo mindinho",
     "date": "23 Jan 2026",
-    "description": "Samantha voce me disse que amou o jeitinho de te segurar a mão pelo mindinho, pois você foi feita para mim. 😍",
+    "description": "Samantha você me disse que amou o jeitinho de te segurar a mão pelo mindinho, pois você foi feita para mim. 😍",
     "likes": 0,
     "favorite": false,
-    "image": ""
+    "image": "src/img/mindinho.jpg"
   },
   {
-    "title": "Ate o carroço 🍔",
+    "title": "Galeto 🍔",
     "date": "24 Jan 2026",
-    "description": "Samantha veio para ca, fiz galeto errado não era de coxinha, chupei sua xota pela primeira vez e transamos no pelo. Teve crise de asma tadinha.",
+    "description": "Samantha veio para ca, fiz galeto errado não era de coxinha. Teve crise de asma tadinha.",
     "likes": 0,
     "favorite": false,
     "image": "src/img/galeto.jpg"
@@ -117,7 +117,7 @@
     "description": "Samantha perguntou se estavamos ficando ou namorando, pois para ela ja estavamos namorando. 💕",
     "likes": 0,
     "favorite": false,
-    "image": ""
+    "image": "src/img/mao.jpg"
   },
   {
     "title": "Confissões",
@@ -138,18 +138,18 @@
   {
     "title": "A você os girassóis",
     "date": "1 Fev 2026",
-    "description": "Samantha e eu achamos os girassóis para poder achar a fortaleza do Nether, amo ver voce feliz.",
+    "description": "Samantha e eu achamos os girassóis para poder achar a fortaleza do Nether, amo ver você feliz.",
     "likes": 0,
     "favorite": false,
     "image": "src/img/minessois.jpg"
   },
   {
-    "title": "Lasanha 🤌 Leitinho na boca 🤤",
+    "title": "Lasanha 🤌",
     "date": "02 Fev 2026",
-    "description": "Samantha fiz lasanha para você ontem esperando um pedido de namoro, mas não veio. Mandou primeiro video da xota eu amei. Tomou leitinho na boca e engoliu. Me fez gosar e transar de novo. E ainda falou que eu ia gosar no cuzinho. Meu sonho de mulher!",
+    "description": "Samantha fiz lasanha para você ontem esperando um pedido de namoro, mas não veio.",
     "likes": 0,
     "favorite": false,
-    "image": "src/img/leitinho.jpg"
+    "image": ""
   },
   {
     "title": "Saladinha",
@@ -202,7 +202,7 @@
     "image": "src/img/fimdetarde.jpg"
   },
   {
-    "title": "Crise de enxaqueca e Anal",
+    "title": "Crise de enxaqueca",
     "date": "09 Fev 2026",
     "description": "Samantha e eu não nos entendemos e por causa do dia anterior e ela veio no intervalo, chorou muito e teve crise de enxaqueca fomos na upa e eu bati com a cadeira de rodas na porta, fiz doutora ir levar o atestado pessoalmente para ela.",
     "likes": 0,
@@ -212,10 +212,10 @@
   {
     "title": "Clientela Feliz essa dai...",
     "date": "10 Fev 2026",
-    "description": "Samantha ainda sobre ontem fomos la na loja de informatica de novo e tivemos mais risos, viramos os clientes casal feliz, e Samantha me ensinou a fazer sexo anal, ja quero mais.",
+    "description": "Samantha ainda sobre ontem fomos la na loja de informatica de novo e tivemos mais risos, viramos os clientes casal feliz.",
     "likes": 0,
     "favorite": false,
-    "image": ""
+    "image": "src/img/tipoc.jpg"
   },
   {
     "title": "Dia triste",
@@ -255,6 +255,6 @@
     "description": "Samantha hoje completa um mes que a gente se falou pela primeira vez (na verdade foi ontem, hoje é nosso aniversário) e depois de tudo isso eu so queria dizer que eu te amo demais. E te quero pro resto da minha vida! ❤️",
     "likes": 0,
     "favorite": false,
-    "image": ""
+    "image": "src/img/lirios.jpg"
   }
 ]
